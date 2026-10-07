@@ -1,0 +1,15 @@
+# Ignore All
+*
+build/*
+
+# Allow directories
+!*/
+
+# Allow only below
+!/.gitignore
+!/src/*
+!/README.md
+!/package.json
+!/LICENSE
+!/CMakeLists.txt
+!.gitkeep
