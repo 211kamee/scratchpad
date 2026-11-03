@@ -36,7 +36,7 @@ struct CollectiveData {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    let mut _port: u16 = 8080;
+    let mut _port: u16 = 3000;
     let file = read_to_string(String::from("./assets/data.json")).unwrap_or_else(|err| {
         eprintln!("{}", err);
         println!("Attempting to create the file");
